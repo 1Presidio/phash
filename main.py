@@ -2,7 +2,6 @@
 import numpy as np
 import os,sys
 from PIL import Image
-from skimage import io
 
 def reduceimg(img):
     outfile = os.path.splitext(img)[0] + "_" + ".jpeg"
