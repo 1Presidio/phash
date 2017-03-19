@@ -20,8 +20,8 @@ python3 main.py IMG1_PATH.jpg IMG2_PATH.jpg
 The results will then be printed as stdout. If the file is unopenable by PIL it will raise an exception.
 
 ## Inspiration and Sources
--http://www.phash.org/
--http://www.hackerfactor.com/blog/?/archives/432-Looks-Like-It.html
+- http://www.phash.org/
+- http://www.hackerfactor.com/blog/?/archives/432-Looks-Like-It.html
 
 ### footnote
 I may plan on expanding this project into making the algorithm more versatile and robust in handling different types of images and potentially videos (Frame by Frame).
