@@ -7,7 +7,6 @@ This app is built on python3. You will need numpy,PIL.
 >For PIL, http://stackoverflow.com/questions/20060096/installing-pil-with-pip
 ```
 pip3 install PIL
-
 ```
 You should change the shabang at the begining of the file if your python3 path is not at under >/usr/bin/env
 
