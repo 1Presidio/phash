@@ -69,7 +69,7 @@ def isdifferent(dif):
     elif dif < 20:
         print("These images, from preliminary results are the similar.")
     elif dif < 25:
-        print("These images, from preliminary results are roughly the simlar.")
+        print("These images, from preliminary results are roughly similar.")
     else:
         print("These images, from preliminary results are different.")
 
