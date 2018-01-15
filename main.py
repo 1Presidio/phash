@@ -18,6 +18,7 @@ def reduceimg(img):
 def greyscale(img):
     img = img.convert('1')
     return img
+
 # get average greyscale color
 def average_colors(img):
     pixelWeight = list(img.getdata())
@@ -30,8 +31,8 @@ def average_colors(img):
     averageVal = totalsum/counter
     return averageVal
 
-#compares img average to every pixel
-#gets img hash value
+# compares img average to every pixel
+# gets img hash value
 def compare_bits(img,imgAvg):
     pixelWeight = list(img.getdata())
     listLen = len(pixelWeight)
@@ -45,8 +46,8 @@ def compare_bits(img,imgAvg):
             bitRes += "0"
     return bitRes
 
-#greyscale image formula
-#convert tuple to greyscaled pixel
+# greyscale image formula
+# convert tuple to greyscaled pixel
 def rgb2grey(rgbTuple):
     red = rgbTuple[0]
     green = rgbTuple[1]
@@ -74,8 +75,8 @@ def isdifferent(dif):
         print("These images, from preliminary results are different.")
 
 def main():
-    #reduces image, greyscales
-    #averages and then hashes image
+    # reduces image, greyscales
+    # averages and then hashes image
     img1 = sys.argv[1]
     img1 = reduceimg(img1)
     greyImg1 = greyscale(img1)
